@@ -1,0 +1,7 @@
+.catalog:
+    name: gateway 
+    version: 0 
+    uuid: nxog09mx
+gateway:
+     scale: 1
+
