@@ -3,5 +3,7 @@ gateway:
     tty: true
     cap_add:
         - NET_ADMIN
+    links:
+        - backen.backen:backen.backen
     ports:
         - "8442:8443"
