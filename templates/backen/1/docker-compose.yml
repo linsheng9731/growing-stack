@@ -1,0 +1,15 @@
+
+postgres:
+    image: registry.growingio.com/growing_postgresql_dev
+    ports:
+        - "5432:5432"
+
+backen:
+    image: registry.growingio.com/growing_backen_release
+    links:                       
+        - postgres:devdb0
+    tty: true
+    extra_hosts:
+        - "cnhm0:10.0.1.222"
+        - "cnalg3:10.0.1.200"
+        - "devredis0:10.0.1.28"
