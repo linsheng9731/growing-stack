@@ -1,6 +1,6 @@
 .catalog:
     name: backen
-    version: 0 
+    version: 1 
     uuid: o1aNXXLW
 backen:
       scale: 3
