@@ -1,3 +1,7 @@
+.catalog:
+    name: backen
+    version: 0 
+    uuid: nxog09md
 backen:
       scale: 3
 postgres:
