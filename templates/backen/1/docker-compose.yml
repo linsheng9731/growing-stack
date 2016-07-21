@@ -1,3 +1,10 @@
+gateway:
+    image: registry.growingio.com/growing_gateway_production
+    tty: true
+    cap_add:
+        - NET_ADMIN
+    ports:
+        - "8442:8443"
 
 postgres:
     image: registry.growingio.com/growing_postgresql_dev
