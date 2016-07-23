@@ -19,4 +19,4 @@ backen:
     extra_hosts:
         - "cnhm0:10.0.1.222"
         - "cnalg3:10.0.1.200"
-        - "devredis0:10.0.1.28"
+        - "devredis0:10.0.3.230"
