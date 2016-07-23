@@ -12,7 +12,7 @@ postgres:
         - "5432:5432"
 
 backen:
-    image: registry.growingio.com/growing_backen_release
+    image: registry.growingio.com/growing_backen_hackthon_chart
     links:                       
         - postgres:devdb0
     tty: true
